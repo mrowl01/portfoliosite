@@ -11154,7 +11154,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 3:
 /*!******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fskills&absolutePagePath=C%3A%5CUsers%5CCRAYSY%5CDesktop%5Cchrisnextsite%5Cpages%5Cskills.js ***!
   \******************************************************************************************************************************************/
@@ -11177,5 +11177,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]));;
+},[[3,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=skills.js.map
