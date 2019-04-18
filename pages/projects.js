@@ -71,9 +71,9 @@ class Projects extends Component{
 				    	<hr/>
 				    	Lets you post campground information and leave comments on others post. It also only lets you edit your post.
 				    </p>
-				    <a style = {{marginRight:'1.6%', marginBottom:'2%'}} href="https://github.com/mrowl01/starwarsSearchr" class="btn btn-primary btn-sm">Github</a>
+				    <a style = {{marginRight:'1.6%', marginBottom:'2%'}} href="https://young-reaches-71543.herokuapp.com/" class="btn btn-primary btn-sm">Live</a>
 				    
-				    <a style = {{marginRight:'1.6%', marginBottom:'2%'}} href="https://www.youtube.com/watch?v=4RqyPv6lLAY&feature=youtu.be" class="btn btn-primary btn-sm">YouTube</a>
+				    <a style = {{marginRight:'1.6%', marginBottom:'2%'}} href="https://github.com/mrowl01/campgrounds" class="btn btn-primary btn-sm">Github</a>
 				  </div>
 				</div>
 				<div class="card mx-auto" >
@@ -103,7 +103,7 @@ class Projects extends Component{
 				    	3d space dungeon crawler game. Inspired by diablo attempting to make it in a greek mythology style.
 				    	Learned 3D modeling because of this. Maze assets made with Blender. Navmesh placed on map to detect walkable areas. Still WIP.
 				    </p>
-				    <a style = {{marginRight:'1.6%', marginBottom:'2%'}} href="https://github.com/mrowl01/starwarsSearchr" class="btn btn-primary btn-sm">Github</a>
+				    <a style = {{marginRight:'1.6%', marginBottom:'2%'}} href="https://github.com/mrowl01/RPG-Combat" class="btn btn-primary btn-sm">Github</a>
 				    
 				    <a style = {{marginRight:'1.6%', marginBottom:'2%'}} href="https://www.youtube.com/watch?v=4RqyPv6lLAY&feature=youtu.be" class="btn btn-primary btn-sm">YouTube</a>
 				  </div>

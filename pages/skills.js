@@ -14,11 +14,11 @@ class Skills extends Component {
 					  <h1 style = {{fontSize:'6.18em'}} class="">Skills</h1>
 					  <p class=""><h3>Top 5</h3></p>
 					  <hr class="my-4"/>
-					  <img title= '' style={{width:'121.35px',height:'121.35px', margin:'1.6%'}}src="/static/js.png" alt="..." class="rounded-circle grow"/>
-					  <img title= '' style={{width:'121.35px',height:'121.35px', margin:'1.6%'}}src="/static/react.png" alt="..." class="rounded-circle grow"/>
-					  <img title= '' style={{width:'121.35px',height:'121.35px', margin:'1.6%'}}src="/static/node.png" alt="..." class="rounded-circle grow"/>
-					  <img title= '' style={{width:'121.35px',height:'121.35px', margin:'1.6%'}}src="/static/css.png" alt="..." class="rounded-circle grow"/>
-					  <img title= '' style={{width:'121.35px',height:'121.35px', margin:'1.6%'}}src="/static/html.png" alt="..." class="rounded-circle grow"/>
+					  <img title= 'javascript' style={{width:'121.35px',height:'121.35px', margin:'1.6%'}}src="/static/js.png" alt="..." class="rounded-circle grow"/>
+					  <img title= 'react' style={{width:'121.35px',height:'121.35px', margin:'1.6%'}}src="/static/react.png" alt="..." class="rounded-circle grow"/>
+					  <img title= 'node.js' style={{width:'121.35px',height:'121.35px', margin:'1.6%'}}src="/static/node.png" alt="..." class="rounded-circle grow"/>
+					  <img title= 'css' style={{width:'121.35px',height:'121.35px', margin:'1.6%'}}src="/static/css.png" alt="..." class="rounded-circle grow"/>
+					  <img title= 'html' style={{width:'121.35px',height:'121.35px', margin:'1.6%'}}src="/static/html.png" alt="..." class="rounded-circle grow"/>
 					</div>
 				</div>
 				<div>
