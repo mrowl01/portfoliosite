@@ -1,13 +1,16 @@
 #navColor {
-  background-color: #76C3B3 !important; }
+  background-color: #69DFC5 !important; }
 
 .btn-primary {
-  background-color: #76C3B3 !important;
-  border-color: #76C3B3 !important;
+  background-color: #69DFC5 !important;
+  border-color: #69DFC5 !important;
   color: black; }
 
 .btn-primary:hover {
   background-color: #36878A !important; }
+
+.socialmedialinks {
+  width: 70px; }
 
 .grow {
   transition: all .2s ease-in-out; }
