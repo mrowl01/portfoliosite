@@ -6,7 +6,6 @@ class Index extends Component{
 	render(){
 		return(
 			<Layout >
-			
 			<h1 style = {{fontSize:'80px' , textAlign:'center'}} className="">Chris Ortega</h1>
 			    <p style = {{textAlign:'center'}} className="lead"><h4>Software Developer</h4></p>
 			<hr/>

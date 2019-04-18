@@ -4,6 +4,9 @@ import '../Components/test.scss';
 
 class Projects extends Component{
 	render(){
+		const openNewTab= (url) =>{
+			window.open(`${url}`)
+		}
 		return(
 			<Layout >
 			<div className = 'card-deck' >
@@ -21,11 +24,12 @@ class Projects extends Component{
 				    	<hr/>
 				    	Web app that uses API clarify to detect faces of pictures. Only accepts URL links.
 				    </p>
-				    <a href="https://face-recognition0.herokuapp.com/" className="btn btn-primary btn-sm" style = {{marginBottom:'2%', marginRight: '2%'}}>Live</a>
-				    
-				    <a style = {{marginRight:'1.6%', marginBottom:'2%'}} href="https://github.com/mrowl01/FaceRecognitionApp" className="btn btn-primary btn-sm">Github Front-End</a>
-				    
-				    <a style = {{marginBottom:'2%'}}href="https://github.com/mrowl01/FaceRecognitionBackEnd" className="btn btn-primary btn-sm">Github Back-End</a>
+				    <a onClick = {()=>openNewTab('https://face-recognition0.herokuapp.com/')}
+				    href="" className="btn btn-primary btn-sm" style = {{marginBottom:'2%', marginRight: '2%'}}>Live</a>
+				    <a onClick = {()=>openNewTab('https://github.com/mrowl01/FaceRecognitionApp')}
+				    style = {{marginRight:'1.6%', marginBottom:'2%'}} href="" className="btn btn-primary btn-sm">Github Front-End</a>
+				    <a onClick = {()=>openNewTab('https://github.com/mrowl01/FaceRecognitionBackEnd')}
+				    style = {{marginBottom:'2%'}}href="" className="btn btn-primary btn-sm">Github Back-End</a>
 				  </div>
 				</div>
 				<div className="card mx-auto" >
@@ -39,10 +43,10 @@ class Projects extends Component{
 				    	<hr/>
 				    	Uses API for pictures and contact cards info. Interactive search. Hope to turn into cat pics in future.
 				    </p>
-				    <a href="https://evening-cliffs-84413.herokuapp.com/" className="btn btn-primary btn-sm" style = {{marginRight:'1.6%', marginBottom:'2%'}}>Live</a>
-				    
-				    <a style = {{marginRight:'1.6%', marginBottom:'2%'}} href="https://github.com/mrowl01/CatFriends" className="btn btn-primary btn-sm">Github</a>
-				    
+				    <a onClick = {()=>openNewTab('https://evening-cliffs-84413.herokuapp.com/')}
+				    href="" className="btn btn-primary btn-sm" style = {{marginRight:'1.6%', marginBottom:'2%'}}>Live</a>
+				    <a onClick = {()=>openNewTab('https://github.com/mrowl01/CatFriends')}
+				    style = {{marginRight:'1.6%', marginBottom:'2%'}} href="" className="btn btn-primary btn-sm">Github</a>
 				  </div>
 				</div>
 				<div className="card mx-auto" >
@@ -56,9 +60,10 @@ class Projects extends Component{
 				    	<hr/>
 				    	Uses API to search starwars universe. Interactive search. Returns information as cards with backgrounds that are randomly generated based on array of images.
 				    </p>
-				    <a style = {{marginRight:'1.6%', marginBottom:'2%'}} href="https://github.com/mrowl01/starwarsSearch" className="btn btn-primary btn-sm">Github</a>
-				    
-				    <a style = {{marginRight:'1.6%', marginBottom:'2%'}} href="https://www.youtube.com/watch?v=11HC1KLeuD0" className="btn btn-primary btn-sm">YouTube</a>
+				    <a onClick = {()=>openNewTab('https://github.com/mrowl01/starwarsSearch')}
+				    style = {{marginRight:'1.6%', marginBottom:'2%'}} href="" className="btn btn-primary btn-sm">Github</a>			    
+				    <a onClick = {()=>openNewTab('https://www.youtube.com/watch?v=11HC1KLeuD0')}
+				    style = {{marginRight:'1.6%', marginBottom:'2%'}} href="" className="btn btn-primary btn-sm">YouTube</a>
 				  </div>
 				</div>
 				<div className="card mx-auto" >
@@ -71,9 +76,10 @@ class Projects extends Component{
 				    	<hr/>
 				    	Lets you post campground information and leave comments on others post. It also only lets you edit your post.
 				    </p>
-				    <a style = {{marginRight:'1.6%', marginBottom:'2%'}} href="https://young-reaches-71543.herokuapp.com/" className="btn btn-primary btn-sm">Live</a>
-				    
-				    <a style = {{marginRight:'1.6%', marginBottom:'2%'}} href="https://github.com/mrowl01/campgrounds" className="btn btn-primary btn-sm">Github</a>
+				    <a onClick = {()=>openNewTab('https://young-reaches-71543.herokuapp.com/')}
+				    style = {{marginRight:'1.6%', marginBottom:'2%'}} href="" className="btn btn-primary btn-sm">Live</a>
+				    <a onClick = {()=>openNewTab('https://github.com/mrowl01/campgrounds')}
+				    style = {{marginRight:'1.6%', marginBottom:'2%'}} href="" className="btn btn-primary btn-sm">Github</a>
 				  </div>
 				</div>
 				<div className="card mx-auto" >
@@ -88,9 +94,10 @@ class Projects extends Component{
 				    	Simple game that keeps track of store based on enemies destroyed. Able to control ship with arrow keys and fire with space button.
 				    	The enemies have a simple animation used with built in unity tools.
 				    </p>
-				    <a style = {{marginRight:'1.6%', marginBottom:'2%'}} href="https://github.com/mrowl01/Space_Shooter_2D" className="btn btn-primary btn-sm">Github</a>
-				    
-				    <a style = {{marginRight:'1.6%', marginBottom:'2%'}} href="https://www.youtube.com/watch?v=GcD19xx9t68" className="btn btn-primary btn-sm">YouTube</a>
+				    <a onClick = {()=>openNewTab('https://github.com/mrowl01/Space_Shooter_2D')}
+				    style = {{marginRight:'1.6%', marginBottom:'2%'}} href="" className="btn btn-primary btn-sm">Github</a>
+				    <a onClick = {()=>openNewTab('https://www.youtube.com/watch?v=GcD19xx9t68')}
+				    style = {{marginRight:'1.6%', marginBottom:'2%'}} href="" className="btn btn-primary btn-sm">YouTube</a>
 				  </div>
 				</div>
 				<div className="card mx-auto" >
@@ -103,9 +110,10 @@ class Projects extends Component{
 				    	3d space dungeon crawler game. Inspired by diablo attempting to make it in a greek mythology style.
 				    	Learned 3D modeling because of this. Maze assets made with Blender. Navmesh placed on map to detect walkable areas. Still WIP.
 				    </p>
-				    <a style = {{marginRight:'1.6%', marginBottom:'2%'}} href="https://github.com/mrowl01/RPG-Combat" className="btn btn-primary btn-sm">Github</a>
-				    
-				    <a style = {{marginRight:'1.6%', marginBottom:'2%'}} href="https://www.youtube.com/watch?v=4RqyPv6lLAY&feature=youtu.be" className="btn btn-primary btn-sm">YouTube</a>
+				    <a onClick = {()=>openNewTab('https://github.com/mrowl01/RPG-Combat')}
+				    style = {{marginRight:'1.6%', marginBottom:'2%'}} href="" className="btn btn-primary btn-sm">Github</a>
+				    <a onClick = {()=>openNewTab('https://www.youtube.com/watch?v=4RqyPv6lLAY&feature=youtu.be')}
+				    style = {{marginRight:'1.6%', marginBottom:'2%'}} href="" className="btn btn-primary btn-sm">YouTube</a>
 				  </div>
 				</div>
 			</div>
