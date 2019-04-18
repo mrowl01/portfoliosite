@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
 import Layout from '../Components/Layout/Layout'
+import '../Components/test.scss';
 
 class Index extends Component{
 	render(){
 		return(
 			<Layout >
-			<h1 style = {{fontSize:'80px' , textAlign:'center'}}> Chris Ortega </h1>
-			<h4 style = {{textAlign:'center'}}>Software Developer</h4>
+			
+			<h1 style = {{fontSize:'80px' , textAlign:'center'}} class="">Chris Ortega</h1>
+			    <p style = {{textAlign:'center'}} class="lead"><h4>Software Developer</h4></p>
 			<hr/>
 				<div className = 'container mt-5'>
 					<div className = 'row'>

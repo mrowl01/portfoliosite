@@ -19,12 +19,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _Navbar_Navbar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Navbar/Navbar */ "./Components/Navbar/Navbar.js");
+/* harmony import */ var _test_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../test.scss */ "./Components/test.scss");
+/* harmony import */ var _test_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_test_scss__WEBPACK_IMPORTED_MODULE_8__);
 
 
 
 
 
 var _jsxFileName = "C:\\Users\\CRAYSY\\Desktop\\chrisnextsite\\Components\\Layout\\Layout.js";
+
 
 
 
@@ -46,19 +49,19 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 10
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 11
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 12
         },
         __self: this
       }, " Chris Ortega's Portfolio "), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("link", {
@@ -68,13 +71,13 @@ function (_Component) {
         crossorigin: "anonymous",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 13
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_7__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 16
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
@@ -84,7 +87,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 17
         },
         __self: this
       }, this.props.children));
@@ -118,12 +121,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _test_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../test.scss */ "./Components/test.scss");
+/* harmony import */ var _test_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_test_scss__WEBPACK_IMPORTED_MODULE_8__);
 
 
 
 
 
 var _jsxFileName = "C:\\Users\\CRAYSY\\Desktop\\chrisnextsite\\Components\\Navbar\\Navbar.js";
+
 
 
 
@@ -143,24 +149,28 @@ function (_Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("nav", {
+        id: "navColor",
+        style: {
+          width: '100%'
+        },
         class: "navbar navbar-expand-lg navbar-light bg-light sticky-top",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 10
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 11
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         class: "navbar-brand",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 11
         },
         __self: this
       }, "CO")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
@@ -173,14 +183,14 @@ function (_Component) {
         "aria-label": "Toggle navigation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 12
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
         class: "navbar-toggler-icon",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 13
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
@@ -188,84 +198,56 @@ function (_Component) {
         id: "navbarSupportedContent test",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 15
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
         class: "navbar-nav ml-auto",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
-        class: "nav-item ",
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 16
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
-        href: "/about",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        class: "nav-link",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
-      }, "About Me ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        class: "sr-only",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
-      }, "(current)")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
         class: "nav-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 17
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "/projects",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 18
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         class: "nav-link",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 18
         },
         __self: this
       }, "Projects"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
         class: "nav-item ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 20
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "/skills",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 21
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         class: "nav-link",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 21
         },
         __self: this
       }, "Skills"))))));
@@ -10535,12 +10517,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _Components_Layout_Layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Components/Layout/Layout */ "./Components/Layout/Layout.js");
+/* harmony import */ var _Components_test_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Components/test.scss */ "./Components/test.scss");
+/* harmony import */ var _Components_test_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_Components_test_scss__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
 
 
 var _jsxFileName = "C:\\Users\\CRAYSY\\Desktop\\chrisnextsite\\pages\\projects.js";
+
 
 
 
@@ -10561,32 +10546,33 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Components_Layout_Layout__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 7
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "card-columns ",
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 8
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "card-deck",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card mx-auto",
+        className: "card-columns",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 10
         },
         __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        class: "card mx-auto",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11
+        },
+        __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         class: "img-fluid",
-        src: "/static/yelp.png",
+        src: "/static/face.jpg",
         alt: "...",
         style: {
           width: 'inherit',
@@ -10596,14 +10582,14 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 12
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card-body",
+        class: "card-body  ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 13
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", {
@@ -10613,70 +10599,53 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 14
         },
         __self: this
       }, "Face Detection"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h6", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14
+          lineNumber: 15
         },
         __self: this
       }, "FullStack Project"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         class: "card-text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 16
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
-      }, "backend: "), " nodejs, docker, redis, postgres SQL", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 17
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
-      }, "frontend:"), " React, Tachyons", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+      }, "backend: "), " nodejs, docker, redis, postgres SQL", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
+      }, "frontend:"), " React, Tachyons", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 21
         },
         __self: this
       }), "Web app that uses API clarify to detect faces of pictures. Only accepts URL links."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         href: "https://face-recognition0.herokuapp.com/",
         class: "btn btn-primary btn-sm",
         style: {
-          marginBottom: '2%'
+          marginBottom: '2%',
+          marginRight: '2%'
         },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        },
-        __self: this
-      }, "Live"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 24
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+      }, "Live"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         style: {
           marginRight: '1.6%',
           marginBottom: '2%'
@@ -10685,37 +10654,30 @@ function (_Component) {
         class: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
-        },
-        __self: this
-      }, "Github Front-End"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 26
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+      }, "Github Front-End"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         style: {
-          marginTop: '1.6%',
           marginBottom: '2%'
         },
         href: "https://github.com/mrowl01/FaceRecognitionBackEnd",
         class: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 28
         },
         __self: this
       }, "Github Back-End"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         class: "card mx-auto",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 31
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         class: "img-fluid",
-        src: "/static/yelp.png",
+        src: "/static/robo.jpg",
         alt: "...",
         style: {
           width: 'inherit',
@@ -10725,14 +10687,14 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 32
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card-body",
+        class: "card-body  ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 33
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", {
@@ -10742,38 +10704,32 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 34
         },
         __self: this
       }, "Robo Cards"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h6", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 35
         },
         __self: this
       }, "FrontEnd Project"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         class: "card-text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 36
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
-        },
-        __self: this
-      }, "frontend:"), " React w/ Redux, Tachyons", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 37
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
+      }, "frontend:"), " React w/ Redux, Tachyons", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 39
         },
         __self: this
       }), "Uses API for pictures and contact cards info. Interactive search. Hope to turn into cat pics in future."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
@@ -10785,7 +10741,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 42
         },
         __self: this
       }, "Live"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
@@ -10797,19 +10753,19 @@ function (_Component) {
         class: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 44
         },
         __self: this
       }, "Github"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         class: "card mx-auto",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 48
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         class: "img-fluid",
-        src: "/static/yelp.png",
+        src: "/static/starwars.jpg",
         alt: "...",
         style: {
           width: 'inherit',
@@ -10819,14 +10775,14 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 49
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         class: "card-body",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 50
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", {
@@ -10836,38 +10792,32 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 51
         },
         __self: this
       }, "Starwars World Search"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h6", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 52
         },
         __self: this
       }, "FrontEnd Project"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         class: "card-text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 53
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
-      }, "frontend:"), " React, Tachyons", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 53
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 54
+        },
+        __self: this
+      }, "frontend:"), " React, Tachyons", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
         },
         __self: this
       }), "Uses API to search starwars universe. Interactive search. Returns information as cards with backgrounds that are randomly generated based on array of images."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
@@ -10879,7 +10829,7 @@ function (_Component) {
         class: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 59
         },
         __self: this
       }, "Github"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
@@ -10891,19 +10841,19 @@ function (_Component) {
         class: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 61
         },
         __self: this
       }, "YouTube"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         class: "card mx-auto",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 64
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         class: "img-fluid",
-        src: "/static/yelp.png",
+        src: "/static/yelp.jpeg",
         alt: "...",
         style: {
           width: 'inherit',
@@ -10913,14 +10863,14 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 65
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         class: "card-body",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 66
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", {
@@ -10930,32 +10880,32 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 67
         },
         __self: this
       }, "Campgrounds"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h6", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 68
         },
         __self: this
       }, "FullStack Project"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         class: "card-text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 69
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 70
         },
         __self: this
       }, "Tech Stack: "), " Node, Express, MongoDB", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 71
         },
         __self: this
       }), "Lets you post campground information and leave comments on others post. It also only lets you edit your post."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
@@ -10967,7 +10917,7 @@ function (_Component) {
         class: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 74
         },
         __self: this
       }, "Github"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
@@ -10979,19 +10929,19 @@ function (_Component) {
         class: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 76
         },
         __self: this
       }, "YouTube"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         class: "card mx-auto",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 75
+          lineNumber: 79
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         class: "img-fluid",
-        src: "/static/yelp.png",
+        src: "/static/2d.jpg",
         alt: "...",
         style: {
           width: 'inherit',
@@ -11001,14 +10951,14 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 80
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         class: "card-body",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 81
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", {
@@ -11018,35 +10968,29 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 82
         },
         __self: this
-      }, "Starwars World Search"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h6", {
+      }, "2D Space Shooter"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h6", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 83
         },
         __self: this
       }, "Unity Project"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         class: "card-text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 84
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 85
         },
         __self: this
-      }), "2d space shooter game made with Unity.", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 83
-        },
-        __self: this
-      }), "Simple game that keeps track of store based on enemies destroyed. Able to control ship with arrow keys and fire with space button. The enemies have a simple animation used with built in unity tools."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+      }), "2d space shooter game made with Unity. Simple game that keeps track of store based on enemies destroyed. Able to control ship with arrow keys and fire with space button. The enemies have a simple animation used with built in unity tools."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         style: {
           marginRight: '1.6%',
           marginBottom: '2%'
@@ -11055,7 +10999,7 @@ function (_Component) {
         class: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 91
         },
         __self: this
       }, "Github"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
@@ -11067,19 +11011,19 @@ function (_Component) {
         class: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 88
+          lineNumber: 93
         },
         __self: this
       }, "YouTube"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         class: "card mx-auto",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91
+          lineNumber: 96
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
         class: "img-fluid",
-        src: "/static/yelp.png",
+        src: "/static/minos.jpg",
         alt: "...",
         style: {
           width: 'inherit',
@@ -11089,14 +11033,14 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 92
+          lineNumber: 97
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         class: "card-body",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 98
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", {
@@ -11106,26 +11050,26 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 99
         },
         __self: this
       }, "Minotaur Dungeon"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h6", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 100
         },
         __self: this
       }, "Unity Project"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         class: "card-text",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 101
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 102
         },
         __self: this
       }), "3d space dungeon crawler game. Inspired by diablo attempting to make it in a greek mythology style. Learned 3D modeling because of this. Maze assets made with Blender. Navmesh placed on map to detect walkable areas. Still WIP."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
@@ -11137,7 +11081,7 @@ function (_Component) {
         class: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 106
         },
         __self: this
       }, "Github"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
@@ -11149,7 +11093,7 @@ function (_Component) {
         class: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102
+          lineNumber: 108
         },
         __self: this
       }, "YouTube"))))));
@@ -11163,7 +11107,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!**********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprojects&absolutePagePath=C%3A%5CUsers%5CCRAYSY%5CDesktop%5Cchrisnextsite%5Cpages%5Cprojects.js ***!
   \**********************************************************************************************************************************************/
@@ -11186,5 +11130,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]));;
+},[[0,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=projects.js.map
