@@ -153,7 +153,7 @@ function (_Component) {
         style: {
           width: '100%'
         },
-        class: "navbar navbar-expand-lg navbar-light bg-light sticky-top",
+        className: "navbar navbar-expand-lg navbar-light bg-light sticky-top",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 10
@@ -167,14 +167,14 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        class: "navbar-brand",
+        className: "navbar-brand",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 11
         },
         __self: this
       }, "CO")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
-        class: "navbar-toggler",
+        className: "navbar-toggler",
         type: "button",
         "data-toggle": "collapse",
         "data-target": "#navbarSupportedContent",
@@ -187,14 +187,14 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        class: "navbar-toggler-icon",
+        className: "navbar-toggler-icon",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "collapse navbar-collapse",
+        className: "collapse navbar-collapse",
         id: "navbarSupportedContent test",
         __source: {
           fileName: _jsxFileName,
@@ -202,14 +202,14 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
-        class: "navbar-nav ml-auto",
+        className: "navbar-nav ml-auto",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
-        class: "nav-item",
+        className: "nav-item",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
@@ -223,14 +223,14 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        class: "nav-link",
+        className: "nav-link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18
         },
         __self: this
       }, "Projects"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
-        class: "nav-item ",
+        className: "nav-item ",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
@@ -244,7 +244,7 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        class: "nav-link",
+        className: "nav-link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 21
@@ -10564,14 +10564,14 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card mx-auto",
+        className: "card mx-auto",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 11
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        class: "img-fluid",
+        className: "img-fluid",
         src: "/static/face.jpg",
         alt: "...",
         style: {
@@ -10586,14 +10586,14 @@ function (_Component) {
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card-body  ",
+        className: "card-body  ",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", {
-        class: "card-title",
+        className: "card-title",
         style: {
           marginBottom: '1.6%'
         },
@@ -10609,7 +10609,7 @@ function (_Component) {
         },
         __self: this
       }, "FullStack Project"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        class: "card-text",
+        className: "card-text",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
@@ -10635,7 +10635,7 @@ function (_Component) {
         __self: this
       }), "Web app that uses API clarify to detect faces of pictures. Only accepts URL links."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         href: "https://face-recognition0.herokuapp.com/",
-        class: "btn btn-primary btn-sm",
+        className: "btn btn-primary btn-sm",
         style: {
           marginBottom: '2%',
           marginRight: '2%'
@@ -10651,7 +10651,7 @@ function (_Component) {
           marginBottom: '2%'
         },
         href: "https://github.com/mrowl01/FaceRecognitionApp",
-        class: "btn btn-primary btn-sm",
+        className: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 26
@@ -10662,21 +10662,21 @@ function (_Component) {
           marginBottom: '2%'
         },
         href: "https://github.com/mrowl01/FaceRecognitionBackEnd",
-        class: "btn btn-primary btn-sm",
+        className: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 28
         },
         __self: this
       }, "Github Back-End"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card mx-auto",
+        className: "card mx-auto",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 31
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        class: "img-fluid",
+        className: "img-fluid",
         src: "/static/robo.jpg",
         alt: "...",
         style: {
@@ -10691,14 +10691,14 @@ function (_Component) {
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card-body  ",
+        className: "card-body  ",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 33
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", {
-        class: "card-title",
+        className: "card-title",
         style: {
           marginBottom: '1.6%'
         },
@@ -10714,7 +10714,7 @@ function (_Component) {
         },
         __self: this
       }, "FrontEnd Project"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        class: "card-text",
+        className: "card-text",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 36
@@ -10734,7 +10734,7 @@ function (_Component) {
         __self: this
       }), "Uses API for pictures and contact cards info. Interactive search. Hope to turn into cat pics in future."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         href: "https://evening-cliffs-84413.herokuapp.com/",
-        class: "btn btn-primary btn-sm",
+        className: "btn btn-primary btn-sm",
         style: {
           marginRight: '1.6%',
           marginBottom: '2%'
@@ -10750,21 +10750,21 @@ function (_Component) {
           marginBottom: '2%'
         },
         href: "https://github.com/mrowl01/CatFriends",
-        class: "btn btn-primary btn-sm",
+        className: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 44
         },
         __self: this
       }, "Github"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card mx-auto",
+        className: "card mx-auto",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 48
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        class: "img-fluid",
+        className: "img-fluid",
         src: "/static/starwars.jpg",
         alt: "...",
         style: {
@@ -10779,14 +10779,14 @@ function (_Component) {
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card-body",
+        className: "card-body",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 50
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", {
-        class: "card-title",
+        className: "card-title",
         style: {
           marginBottom: '1.6%'
         },
@@ -10802,7 +10802,7 @@ function (_Component) {
         },
         __self: this
       }, "FrontEnd Project"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        class: "card-text",
+        className: "card-text",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 53
@@ -10826,7 +10826,7 @@ function (_Component) {
           marginBottom: '2%'
         },
         href: "https://github.com/mrowl01/starwarsSearch",
-        class: "btn btn-primary btn-sm",
+        className: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 59
@@ -10838,21 +10838,21 @@ function (_Component) {
           marginBottom: '2%'
         },
         href: "https://www.youtube.com/watch?v=11HC1KLeuD0",
-        class: "btn btn-primary btn-sm",
+        className: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 61
         },
         __self: this
       }, "YouTube"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card mx-auto",
+        className: "card mx-auto",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 64
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        class: "img-fluid",
+        className: "img-fluid",
         src: "/static/yelp.jpeg",
         alt: "...",
         style: {
@@ -10867,14 +10867,14 @@ function (_Component) {
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card-body",
+        className: "card-body",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 66
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", {
-        class: "card-title",
+        className: "card-title",
         style: {
           marginBottom: '1.6%'
         },
@@ -10890,7 +10890,7 @@ function (_Component) {
         },
         __self: this
       }, "FullStack Project"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        class: "card-text",
+        className: "card-text",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 69
@@ -10914,7 +10914,7 @@ function (_Component) {
           marginBottom: '2%'
         },
         href: "https://young-reaches-71543.herokuapp.com/",
-        class: "btn btn-primary btn-sm",
+        className: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 74
@@ -10926,21 +10926,21 @@ function (_Component) {
           marginBottom: '2%'
         },
         href: "https://github.com/mrowl01/campgrounds",
-        class: "btn btn-primary btn-sm",
+        className: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 76
         },
         __self: this
       }, "Github"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card mx-auto",
+        className: "card mx-auto",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 79
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        class: "img-fluid",
+        className: "img-fluid",
         src: "/static/2d.jpg",
         alt: "...",
         style: {
@@ -10955,14 +10955,14 @@ function (_Component) {
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card-body",
+        className: "card-body",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 81
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", {
-        class: "card-title",
+        className: "card-title",
         style: {
           marginBottom: '1.6%'
         },
@@ -10978,7 +10978,7 @@ function (_Component) {
         },
         __self: this
       }, "Unity Project"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        class: "card-text",
+        className: "card-text",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 84
@@ -10996,7 +10996,7 @@ function (_Component) {
           marginBottom: '2%'
         },
         href: "https://github.com/mrowl01/Space_Shooter_2D",
-        class: "btn btn-primary btn-sm",
+        className: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 91
@@ -11008,21 +11008,21 @@ function (_Component) {
           marginBottom: '2%'
         },
         href: "https://www.youtube.com/watch?v=GcD19xx9t68",
-        class: "btn btn-primary btn-sm",
+        className: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 93
         },
         __self: this
       }, "YouTube"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card mx-auto",
+        className: "card mx-auto",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 96
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        class: "img-fluid",
+        className: "img-fluid",
         src: "/static/minos.jpg",
         alt: "...",
         style: {
@@ -11037,14 +11037,14 @@ function (_Component) {
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card-body",
+        className: "card-body",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 98
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h5", {
-        class: "card-title",
+        className: "card-title",
         style: {
           marginBottom: '1.6%'
         },
@@ -11060,7 +11060,7 @@ function (_Component) {
         },
         __self: this
       }, "Unity Project"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        class: "card-text",
+        className: "card-text",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 101
@@ -11078,7 +11078,7 @@ function (_Component) {
           marginBottom: '2%'
         },
         href: "https://github.com/mrowl01/RPG-Combat",
-        class: "btn btn-primary btn-sm",
+        className: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 106
@@ -11090,7 +11090,7 @@ function (_Component) {
           marginBottom: '2%'
         },
         href: "https://www.youtube.com/watch?v=4RqyPv6lLAY&feature=youtu.be",
-        class: "btn btn-primary btn-sm",
+        className: "btn btn-primary btn-sm",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 108
@@ -11107,7 +11107,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 3:
 /*!**********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fprojects&absolutePagePath=C%3A%5CUsers%5CCRAYSY%5CDesktop%5Cchrisnextsite%5Cpages%5Cprojects.js ***!
   \**********************************************************************************************************************************************/
@@ -11130,5 +11130,5 @@ module.exports = dll_6dc2816e14fab51b8269;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]));;
+},[[3,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=projects.js.map

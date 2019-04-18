@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -246,7 +246,7 @@ function (_Component) {
         style: {
           width: '100%'
         },
-        class: "navbar navbar-expand-lg navbar-light bg-light sticky-top",
+        className: "navbar navbar-expand-lg navbar-light bg-light sticky-top",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 10
@@ -260,14 +260,14 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        class: "navbar-brand",
+        className: "navbar-brand",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 11
         },
         __self: this
       }, "CO")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
-        class: "navbar-toggler",
+        className: "navbar-toggler",
         type: "button",
         "data-toggle": "collapse",
         "data-target": "#navbarSupportedContent",
@@ -280,14 +280,14 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        class: "navbar-toggler-icon",
+        className: "navbar-toggler-icon",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "collapse navbar-collapse",
+        className: "collapse navbar-collapse",
         id: "navbarSupportedContent test",
         __source: {
           fileName: _jsxFileName,
@@ -295,14 +295,14 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
-        class: "navbar-nav ml-auto",
+        className: "navbar-nav ml-auto",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
-        class: "nav-item",
+        className: "nav-item",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
@@ -316,14 +316,14 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        class: "nav-link",
+        className: "nav-link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18
         },
         __self: this
       }, "Projects"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
-        class: "nav-item ",
+        className: "nav-item ",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
@@ -337,7 +337,7 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        class: "nav-link",
+        className: "nav-link",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 21
@@ -1196,7 +1196,7 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "contentBody",
+        className: "contentBody",
         style: {
           textAlign: 'center'
         },
@@ -1206,7 +1206,7 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "jumbotron",
+        className: "jumbotron",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13
@@ -1216,14 +1216,14 @@ function (_Component) {
         style: {
           fontSize: '6.18em'
         },
-        class: "",
+        className: "",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 14
         },
         __self: this
       }, "Skills"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        class: "",
+        className: "",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15
@@ -1236,7 +1236,7 @@ function (_Component) {
         },
         __self: this
       }, "Top 5")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
-        class: "my-4",
+        className: "my-4",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
@@ -1251,7 +1251,7 @@ function (_Component) {
         },
         src: "/static/js.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
@@ -1266,7 +1266,7 @@ function (_Component) {
         },
         src: "/static/react.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18
@@ -1281,7 +1281,7 @@ function (_Component) {
         },
         src: "/static/node.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 19
@@ -1296,7 +1296,7 @@ function (_Component) {
         },
         src: "/static/css.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
@@ -1311,7 +1311,7 @@ function (_Component) {
         },
         src: "/static/html.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 21
@@ -1324,28 +1324,28 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card-deck",
+        className: "card-deck",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 25
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card tc",
+        className: "card tc",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 26
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card-body",
+        className: "card-body",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 27
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h3", {
-        class: "card-title",
+        className: "card-title",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 28
@@ -1360,7 +1360,7 @@ function (_Component) {
         },
         src: "/static/boot.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 29
@@ -1375,7 +1375,7 @@ function (_Component) {
         },
         src: "/static/html.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 31
@@ -1390,7 +1390,7 @@ function (_Component) {
         },
         src: "/static/css.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32
@@ -1405,7 +1405,7 @@ function (_Component) {
         },
         src: "/static/js.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 33
@@ -1420,7 +1420,7 @@ function (_Component) {
         },
         src: "/static/jq.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 34
@@ -1435,7 +1435,7 @@ function (_Component) {
         },
         src: "/static/sass.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 35
@@ -1450,7 +1450,7 @@ function (_Component) {
         },
         src: "/static/react.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 36
@@ -1465,7 +1465,7 @@ function (_Component) {
         },
         src: "/static/redux.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 37
@@ -1480,7 +1480,7 @@ function (_Component) {
         },
         src: "/static/next.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 38
@@ -1495,28 +1495,28 @@ function (_Component) {
         },
         src: "/static/ts.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 39
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card tc",
+        className: "card tc",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 42
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card-body",
+        className: "card-body",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 43
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h3", {
-        class: "card-title",
+        className: "card-title",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 44
@@ -1531,7 +1531,7 @@ function (_Component) {
         },
         src: "/static/node.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 45
@@ -1546,7 +1546,7 @@ function (_Component) {
         },
         src: "/static/mysql.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 46
@@ -1561,7 +1561,7 @@ function (_Component) {
         },
         src: "/static/mongo.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 47
@@ -1576,7 +1576,7 @@ function (_Component) {
         },
         src: "/static/python.jpg",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 48
@@ -1591,7 +1591,7 @@ function (_Component) {
         },
         src: "/static/express.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 49
@@ -1606,7 +1606,7 @@ function (_Component) {
         },
         src: "/static/postgres.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 50
@@ -1621,28 +1621,28 @@ function (_Component) {
         },
         src: "/static/redis.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 51
         },
         __self: this
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card tc",
+        className: "card tc",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 54
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        class: "card-body",
+        className: "card-body",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 55
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h3", {
-        class: "card-title",
+        className: "card-title",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 56
@@ -1657,7 +1657,7 @@ function (_Component) {
         },
         src: "/static/git.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 57
@@ -1672,7 +1672,7 @@ function (_Component) {
         },
         src: "/static/rest.jpg",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 58
@@ -1687,7 +1687,7 @@ function (_Component) {
         },
         src: "/static/res.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 59
@@ -1702,7 +1702,7 @@ function (_Component) {
         },
         src: "/static/unity.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 60
@@ -1717,7 +1717,7 @@ function (_Component) {
         },
         src: "/static/c.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 61
@@ -1732,7 +1732,7 @@ function (_Component) {
         },
         src: "/static/heroku.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 62
@@ -1747,7 +1747,7 @@ function (_Component) {
         },
         src: "/static/aws.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 63
@@ -1762,7 +1762,7 @@ function (_Component) {
         },
         src: "/static/jest.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 64
@@ -1777,7 +1777,7 @@ function (_Component) {
         },
         src: "/static/docker.png",
         alt: "...",
-        class: "rounded-circle grow",
+        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 65
@@ -1794,7 +1794,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/skills.js ***!
   \*******************************/

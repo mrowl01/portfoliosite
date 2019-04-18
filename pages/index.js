@@ -7,8 +7,8 @@ class Index extends Component{
 		return(
 			<Layout >
 			
-			<h1 style = {{fontSize:'80px' , textAlign:'center'}} class="">Chris Ortega</h1>
-			    <p style = {{textAlign:'center'}} class="lead"><h4>Software Developer</h4></p>
+			<h1 style = {{fontSize:'80px' , textAlign:'center'}} className="">Chris Ortega</h1>
+			    <p style = {{textAlign:'center'}} className="lead"><h4>Software Developer</h4></p>
 			<hr/>
 				<div className = 'container mt-5'>
 					<div className = 'row'>
