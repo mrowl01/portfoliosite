@@ -28,15 +28,11 @@ class Index extends Component{
 					</div>
 				<div style = {{ paddingTop: '6.17%' , paddingBottom:'6.17%'}}>
 					<p style = {{ fontSize:'20px'}}> 
-						I'm a motivated guy when it comes to tech and web dev.
-						I do a lot of online courses to learn new skills.
-						<br/>
-						If I don't know how to do it I'll learn it. The job always gets done to the best of my ability.
-						<br/><br/>
-						Started coding for fun using Unity3D and I love practicle things. Web Dev became the next logical step so 
-						I started to absorb as much info as I could. I'm still learning there is a lot! Keeps me happy :)
-						<br/><br/>
-						Outside of tech and coding I'm a mma practisioner and I still make games with Unity when I can - exploring VR.
+						I'm a motivated guy when it comes to tech.
+						I started by coding on Unity3D making games. <br/> My love for practicle applications
+						pushed me into web development where I started to absorb as much info as I could.
+						 There is a lot to learn so I'm always taking new online courses. It keeps me happy and motivated :).<br/>
+						Outside of tech I'm a mma practitioner and I make games when I can - exploring VR.
 					</p>
 				</div>
 			</div>

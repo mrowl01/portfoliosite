@@ -1,5 +1,6 @@
 #navColor {
-  background-color: #69DFC5 !important; }
+  background-color: #69DFC5 !important;
+  padding: 1px; }
 
 .btn-primary {
   background-color: #69DFC5 !important;
@@ -11,6 +12,33 @@
 
 .socialmedialinks {
   width: 70px; }
+
+.logo {
+  border: 2px solid black;
+  font-size: 1.6rem;
+  padding: 0;
+  margin-left: 0px; }
+
+.logo:hover {
+  background-color: yellow; }
+
+.navbar-toggler {
+  border: 0; }
+  .navbar-toggler a {
+    color: white; }
+
+.skillbutton {
+  margin-left: 5px; }
+
+.btn-sm {
+  padding: 0;
+  border: 0; }
+
+.resumelink {
+  cursor: pointer; }
+
+.navbar-toggler {
+  padding: 2px; }
 
 .grow {
   transition: all .2s ease-in-out; }

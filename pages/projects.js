@@ -91,7 +91,7 @@ class Projects extends Component{
 				    	<hr/>
 				    	2d space shooter game made with Unity. 
 				    	
-				    	Simple game that keeps track of store based on enemies destroyed. Able to control ship with arrow keys and fire with space button.
+				    	Simple game that keeps track of score based on enemies destroyed. Able to control ship with arrow keys and fire with space button.
 				    	The enemies have a simple animation used with built in unity tools.
 				    </p>
 				    <a onClick = {()=>openNewTab('https://github.com/mrowl01/Space_Shooter_2D')}

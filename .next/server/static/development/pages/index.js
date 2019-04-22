@@ -170,7 +170,7 @@ function (_Component) {
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Navbar_Navbar__WEBPACK_IMPORTED_MODULE_7__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 15
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
@@ -180,7 +180,7 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 16
         },
         __self: this
       }, this.props.children));
@@ -241,6 +241,10 @@ function (_Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Navbar, [{
     key: "render",
     value: function render() {
+      var openNewTab = function openNewTab(url) {
+        window.open("".concat(url));
+      };
+
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("nav", {
         id: "navColor",
         style: {
@@ -249,101 +253,167 @@ function (_Component) {
         className: "navbar navbar-expand-lg navbar-light bg-light sticky-top",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 13
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 14
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        className: "navbar-brand",
+        className: "navbar-brand logo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11
+          lineNumber: 14
         },
         __self: this
-      }, "CO")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("strong", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, "CO"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "navbar-toggler",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
         type: "button",
-        "data-toggle": "collapse",
-        "data-target": "#navbarSupportedContent",
-        "aria-controls": "navbarSupportedContent",
-        "aria-expanded": "false",
-        "aria-label": "Toggle navigation",
+        className: "btn-sm btn-dark",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 16
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        className: "navbar-toggler-icon",
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        className: "nav-link",
+        href: "/projects",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 17
         },
         __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }, " Projects ")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+        type: "button",
+        className: "btn-sm btn-dark skillbutton",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 19
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        className: "nav-link",
+        href: "/skills",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        },
+        __self: this
+      }, " Skills ")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+        type: "button",
+        className: "btn-sm btn-dark skillbutton",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        className: "nav-link resumelink",
+        onClick: function onClick() {
+          return openNewTab('/static/ortegaresume.pdf');
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, " Resume "))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "collapse navbar-collapse",
         id: "navbarSupportedContent test",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 26
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
         className: "navbar-nav ml-auto",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 27
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
         className: "nav-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 28
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "/projects",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 29
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         className: "nav-link",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 29
         },
         __self: this
       }, "Projects"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
         className: "nav-item ",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 31
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "/skills",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 32
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         className: "nav-link",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 32
         },
         __self: this
-      }, "Skills"))))));
+      }, "Skills"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
+        className: "nav-item ",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        className: "nav-link resumelink",
+        onClick: function onClick() {
+          return openNewTab('/static/ortegaresume.pdf');
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35
+        },
+        __self: this
+      }, "Resume"))))));
     }
   }]);
 
@@ -1140,10 +1210,10 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/skills.js":
-/*!*************************!*\
-  !*** ./pages/skills.js ***!
-  \*************************/
+/***/ "./pages/index.js":
+/*!************************!*\
+  !*** ./pages/index.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1157,56 +1227,49 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _Components_Layout_Layout__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../Components/Layout/Layout */ "./Components/Layout/Layout.js");
-/* harmony import */ var _Components_skills_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Components/skills.scss */ "./Components/skills.scss");
-/* harmony import */ var _Components_skills_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_Components_skills_scss__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _Components_test_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../Components/test.scss */ "./Components/test.scss");
+/* harmony import */ var _Components_test_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_Components_test_scss__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _Components_skills_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../Components/skills.scss */ "./Components/skills.scss");
+/* harmony import */ var _Components_skills_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_Components_skills_scss__WEBPACK_IMPORTED_MODULE_8__);
 
 
 
 
 
-var _jsxFileName = "C:\\Users\\CRAYSY\\Desktop\\chrisnextsite\\pages\\skills.js";
+var _jsxFileName = "C:\\Users\\CRAYSY\\Desktop\\chrisnextsite\\pages\\index.js";
 
 
 
 
-var Skills =
+
+var Index =
 /*#__PURE__*/
 function (_Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Skills, _Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Index, _Component);
 
-  function Skills() {
-    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Skills);
+  function Index() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Index);
 
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Skills).apply(this, arguments));
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Index).apply(this, arguments));
   }
 
-  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Skills, [{
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Index, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Components_Layout_Layout__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "contentBody",
-        style: {
-          textAlign: 'center'
-        },
+      var openNewTab = function openNewTab(url) {
+        window.open("".concat(url));
+      };
+
+      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Components_Layout_Layout__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 12
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "jumbotron",
+        style: {
+          textAlign: 'center'
+        },
         __source: {
           fileName: _jsxFileName,
           lineNumber: 13
@@ -1214,7 +1277,8 @@ function (_Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
         style: {
-          fontSize: '6.18em'
+          fontSize: '80px',
+          textAlign: 'center'
         },
         className: "",
         __source: {
@@ -1222,586 +1286,142 @@ function (_Component) {
           lineNumber: 14
         },
         __self: this
-      }, "Skills"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "",
+      }, "Chris Ortega"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        style: {
+          textAlign: 'center'
+        },
+        className: "lead",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h3", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h4", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15
         },
         __self: this
-      }, "Top 5")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
-        className: "my-4",
+      }, "Software Developer")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        onClick: function onClick() {
+          return openNewTab('https://www.linkedin.com/in/chris-ortega-141645184/');
+        },
+        className: "grow socialmedialinks",
+        src: "/static/slinkedin.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "javascript",
-        style: {
-          width: '121.35px',
-          height: '121.35px',
-          margin: '1.6%'
+        onClick: function onClick() {
+          return openNewTab('https://github.com/mrowl01');
         },
-        src: "/static/js.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "react",
-        style: {
-          width: '121.35px',
-          height: '121.35px',
-          margin: '1.6%'
-        },
-        src: "/static/react.png",
-        alt: "...",
-        className: "rounded-circle grow",
+        className: "grow socialmedialinks",
+        src: "/static/sgit.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 18
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "node.js",
-        style: {
-          width: '121.35px',
-          height: '121.35px',
-          margin: '1.6%'
-        },
-        src: "/static/node.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "css",
-        style: {
-          width: '121.35px',
-          height: '121.35px',
-          margin: '1.6%'
-        },
-        src: "/static/css.png",
-        alt: "...",
-        className: "rounded-circle grow",
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 20
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "html",
-        style: {
-          width: '121.35px',
-          height: '121.35px',
-          margin: '1.6%'
-        },
-        src: "/static/html.png",
-        alt: "...",
-        className: "rounded-circle grow",
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "container mt-5",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 21
         },
         __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "col text-center",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
+        src: "/static/pp.jpeg",
+        alt: "...",
+        className: "rounded-circle img-thumbnail",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 24
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "card-deck",
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 25
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "card tc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 26
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "card-body",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 27
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h3", {
-        className: "card-title",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        },
-        __self: this
-      }, "Front-End"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "bootstrap ",
+      })))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
+          paddingTop: '6.17%',
+          paddingBottom: '6.17%'
         },
-        src: "/static/boot.png",
-        alt: "...",
-        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 29
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "html",
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
+          fontSize: '20px'
         },
-        src: "/static/html.png",
-        alt: "...",
-        className: "rounded-circle grow",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 30
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "CSS",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/css.png",
-        alt: "...",
-        className: "rounded-circle grow",
+      }, "I'm a motivated guy when it comes to tech. I started by coding on Unity3D making games. ", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "javascript",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/js.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 33
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "jquery",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/jq.png",
-        alt: "...",
-        className: "rounded-circle grow",
+      }), " My love for practicle applications pushed me into web development where I started to absorb as much info as I could. There is a lot to learn so I'm always taking new online courses. It keeps me happy and motivated :).", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 34
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "sass",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/sass.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "react",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/react.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "redux",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/redux.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "next.js",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/next.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "typescript",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/ts.png",
-        alt: "...",
-        className: "rounded-circle grow",
+      }), "Outside of tech I'm a mma practitioner and I make games when I can - exploring VR."))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 39
         },
         __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "card tc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "card-body",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 43
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h3", {
-        className: "card-title",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 44
-        },
-        __self: this
-      }, "Back-End"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "node.js",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/node.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "mysql",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/mysql.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 46
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "mongodb",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/mongo.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "python",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/python.jpg",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "express",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/express.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "postgres",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/postgres.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "redis",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/redis.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "card tc",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "card-body",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 55
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h3", {
-        className: "card-title",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 56
-        },
-        __self: this
-      }, "Other"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "git",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/git.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 57
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "RESTful",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/rest.jpg",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "Responsive Design",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/res.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "Unity 3D",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/unity.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 60
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "C#",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/c.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 61
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "heroku",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/heroku.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 62
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "Amazon Web Services",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/aws.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 63
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "jest",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/jest.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 64
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-        title: "docker",
-        style: {
-          width: '46.35px',
-          height: '46.35px',
-          margin: '1.6%'
-        },
-        src: "/static/docker.png",
-        alt: "...",
-        className: "rounded-circle grow",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 65
-        },
-        __self: this
-      })))))));
+      }));
     }
   }]);
 
-  return Skills;
+  return Index;
 }(react__WEBPACK_IMPORTED_MODULE_5__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (Skills);
+/* harmony default export */ __webpack_exports__["default"] = (Index);
 
 /***/ }),
 
 /***/ 3:
-/*!*******************************!*\
-  !*** multi ./pages/skills.js ***!
-  \*******************************/
+/*!******************************!*\
+  !*** multi ./pages/index.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\CRAYSY\Desktop\chrisnextsite\pages\skills.js */"./pages/skills.js");
+module.exports = __webpack_require__(/*! C:\Users\CRAYSY\Desktop\chrisnextsite\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
@@ -1961,4 +1581,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=skills.js.map
+//# sourceMappingURL=index.js.map
