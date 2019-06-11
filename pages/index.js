@@ -29,10 +29,10 @@ class Index extends Component{
 				<div style = {{ paddingTop: '6.17%' , paddingBottom:'6.17%'}}>
 					<p style = {{ fontSize:'20px'}}> 
 						I'm a motivated guy when it comes to tech.
-						I started by coding on Unity3D making games. <br/> My love for practicle applications
+						I started by coding on Unity3D making games. <br/> My love for practical applications
 						pushed me into web development where I started to absorb as much info as I could.
 						 There is a lot to learn so I'm always taking new online courses. It keeps me happy and motivated :).<br/>
-						Outside of tech I'm a mma practitioner and I make games when I can - exploring VR.
+						Outside of tech I'm a mma practitioner and I make games when I can using Unity3D. Exploring VR Development for fun.
 					</p>
 				</div>
 			</div>

@@ -20,7 +20,7 @@ class Navbar extends Component {
 			    	<a className= 'nav-link' href ='/skills'> Skills </a>
 			    </button>
 			    <button type = 'button' className='btn-sm btn-dark skillbutton'>
-			    	<a className= 'nav-link resumelink' onClick={()=>openNewTab('/static/ortegaresume.pdf')}> Resume </a>
+			    	<a className= 'nav-link resumelink' onClick={()=>openNewTab('/static/chrisortegaresume.pdf')}> Resume </a>
 			    </button>
 			  </div>
 			  <div className="collapse navbar-collapse" id="navbarSupportedContent test"  >
@@ -32,7 +32,7 @@ class Navbar extends Component {
 			        <Link href= '/skills' ><a  className="nav-link">Skills</a></Link>
 			      </li>
 			      <li className="nav-item ">
-			        <Link ><a  className="nav-link resumelink" onClick={()=>openNewTab('/static/ortegaresume.pdf')}>Resume</a></Link>
+			        <Link ><a  className="nav-link resumelink" onClick={()=>openNewTab('/static/chrisortegaresume.pdf')}>Resume</a></Link>
 			      </li>
 			    </ul>
 			  </div>

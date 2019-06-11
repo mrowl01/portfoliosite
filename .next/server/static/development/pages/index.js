@@ -119,7 +119,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\CRAYSY\\Desktop\\chrisnextsite\\Components\\Layout\\Layout.js";
+var _jsxFileName = "C:\\Users\\CRAYSY\\Desktop\\documents\\Portfolio\\chrisnextsite\\Components\\Layout\\Layout.js";
 
 
 
@@ -221,7 +221,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\CRAYSY\\Desktop\\chrisnextsite\\Components\\Navbar\\Navbar.js";
+var _jsxFileName = "C:\\Users\\CRAYSY\\Desktop\\documents\\Portfolio\\chrisnextsite\\Components\\Navbar\\Navbar.js";
 
 
 
@@ -326,7 +326,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         className: "nav-link resumelink",
         onClick: function onClick() {
-          return openNewTab('/static/ortegaresume.pdf');
+          return openNewTab('/static/chrisortegaresume.pdf');
         },
         __source: {
           fileName: _jsxFileName,
@@ -406,7 +406,7 @@ function (_Component) {
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         className: "nav-link resumelink",
         onClick: function onClick() {
-          return openNewTab('/static/ortegaresume.pdf');
+          return openNewTab('/static/chrisortegaresume.pdf');
         },
         __source: {
           fileName: _jsxFileName,
@@ -1236,7 +1236,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Users\\CRAYSY\\Desktop\\chrisnextsite\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\CRAYSY\\Desktop\\documents\\Portfolio\\chrisnextsite\\pages\\index.js";
 
 
 
@@ -1391,13 +1391,13 @@ function (_Component) {
           lineNumber: 32
         },
         __self: this
-      }), " My love for practicle applications pushed me into web development where I started to absorb as much info as I could. There is a lot to learn so I'm always taking new online courses. It keeps me happy and motivated :).", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+      }), " My love for practical applications pushed me into web development where I started to absorb as much info as I could. There is a lot to learn so I'm always taking new online courses. It keeps me happy and motivated :).", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 34
         },
         __self: this
-      }), "Outside of tech I'm a mma practitioner and I make games when I can - exploring VR."))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
+      }), "Outside of tech I'm a mma practitioner and I make games when I can using Unity3D. Exploring VR Development for fun."))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("hr", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 39
@@ -1421,7 +1421,7 @@ function (_Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\CRAYSY\Desktop\chrisnextsite\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\CRAYSY\Desktop\documents\Portfolio\chrisnextsite\pages\index.js */"./pages/index.js");
 
 
 /***/ }),
