@@ -1,0 +1,15 @@
+.grow {
+  transition: all .2s ease-in-out; }
+
+.grow:hover {
+  transform: scale(1.3); }
+
+.tc {
+  text-align: center; }
+
+.card {
+  margin-bottom: 5%; }
+
+.grow:active {
+  transform: scale(1.2); }
+
